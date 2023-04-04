@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    background-color: hsla(0, 36%, 70%, 15%);
+
+    display: flex;
+    justify-content: center;
+}
+
+.apparel {
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 375px;
+    height: 800px;
+}
+
+.logo {
+    border: 1px solid red;
+}
+
+.apparel__content {
+    border: 1px solid red;
+}
+
+.apparel__img {
+    border: 1px solid red;
+}
+
+.apparel__header {
+    border: 1px solid red;
+}
+
+.apparel__text {
+    border: 1px solid red;
+}
+
+.email {
+    border: 1px solid red;
+
+    display: flex;
+}
+
+.email__text {
+    border: 1px solid red;
+}
+
+.email__button {
+    border: 1px solid red;
+}
