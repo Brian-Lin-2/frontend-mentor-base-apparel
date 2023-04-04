@@ -5,6 +5,9 @@ body {
 
     display: flex;
     justify-content: center;
+
+    font-family: 'Josefin Sans', 'Times New Roman', Times, serif;
+    font-size: 16px;
 }
 
 .apparel {
@@ -20,6 +23,7 @@ body {
 .logo {
     width: 100px;
     margin: 25px;
+    margin-bottom: 35px;
 }
 
 .apparel__content {
@@ -31,14 +35,29 @@ body {
     align-items: center;
 }
 
+.apparel__img {
+    margin-bottom: 50px;
+}
+
 .apparel__header {
     border: 1px solid red;
 
     text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+
+    color: hsla(0, 0%, 0%, 80%);
+}
+
+.apparel__headerSubText {
+    color: hsl(0, 36%, 70%);
+    font-weight: lighter;
 }
 
 .apparel__text {
     border: 1px solid red;
+
+    color: hsl(0, 36%, 70%);
 }
 
 .email {
@@ -49,6 +68,9 @@ body {
 
 .email__text {
     border: 1px solid red;
+
+    color: hsl(0, 36%, 70%);
+    font-weight: lighter;
 }
 
 .email__button {
