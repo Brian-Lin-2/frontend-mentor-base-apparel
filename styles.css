@@ -10,11 +10,8 @@ body {
     font-size: 16px;
 }
 
-.apparel {
+.container {
     border: 1px solid red;
-
-    display: flex;
-    flex-direction: column;
 
     width: 375px;
     height: 800px;
@@ -26,6 +23,15 @@ body {
     margin-bottom: 35px;
 }
 
+.apparel {
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
 .apparel__content {
     border: 1px solid red;
 
@@ -33,6 +39,8 @@ body {
     flex-direction: column;
 
     align-items: center;
+
+    width: 300px;
 }
 
 .apparel__img {
@@ -47,6 +55,8 @@ body {
     line-height: 40px;
 
     color: hsla(0, 0%, 0%, 80%);
+
+    margin-bottom: 30px;
 }
 
 .apparel__headerSubText {
@@ -58,6 +68,7 @@ body {
     border: 1px solid red;
 
     color: hsl(0, 36%, 70%);
+    text-align: center;
 }
 
 .email {
