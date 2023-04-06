@@ -91,16 +91,11 @@ body {
     padding: 15px;
     margin-left: 10px;
 
-    width: 190px;
+    width: 225px;
 }
 
 ::placeholder {
     color: hsla(0, 36%, 70%, 50%);
-}
-
-.email__error {
-    width: 25px;
-    margin-right: 10px;
 }
 
 .email__buttonArrow {
@@ -117,14 +112,25 @@ body {
     margin-left: -67px;
 }
 
-.email__buttonArrow:hover {
-    cursor: pointer;
+/* Active States (Desktop) */
 
-    background: linear-gradient(135deg, hsl(0, 80%, 90%), hsl(0, 74%, 85%));;
+/* @media screen and (min-width: 500px) {
+    .email__buttonArrow:hover {
+        cursor: pointer;
+    
+        background: linear-gradient(135deg, hsl(0, 80%, 90%), hsl(0, 74%, 85%));;
+    
+        padding: 16px 30px 16px 35px;
+    
+        box-shadow: 0px 10px 15px hsla(0, 93%, 68%, 35%);
+    }
+} */
 
-    padding: 16px 30px 16px 35px;
+/* Error state. */
 
-    box-shadow: 0px 10px 15px hsla(0, 93%, 68%, 35%);
+.email__error {
+    width: 25px;
+    margin-left: -30px;
 }
 
 .email__errorMessage {
