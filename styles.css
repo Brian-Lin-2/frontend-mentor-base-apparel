@@ -61,11 +61,17 @@ body {
 }
 
 .email {
+    display: flex;
+}
+
+.email__input {
     border: 1px solid hsl(0, 36%, 70%);
     border-radius: 30px;
 
     display: flex;
     align-items: center;
+
+    width: 340px;
 }
 
 .email__text {
@@ -80,8 +86,8 @@ body {
 
     padding: 15px;
     margin-left: 10px;
-    
-    width: 205px;
+
+    width: 200px;
 }
 
 ::placeholder {
@@ -97,12 +103,14 @@ body {
 .email__buttonArrow {
     display: block;
     border-radius: 30px;
-    
+
     margin: auto;
     padding: 15px 25px 15px 30px;
-
-    background: linear-gradient(to bottom right,hsla(0, 93%, 68%, 25%), 25%, hsla(0, 93%, 68%, 75%));
+    
+    background: linear-gradient(to bottom right, hsla(0, 93%, 68%, 25%), 25%, hsla(0, 93%, 68%, 75%));
     box-shadow: 0px 10px 15px hsla(0, 93%, 68%, 25%);
+
+    margin-left: -67px;
 }
 
 .email__errorMessage {
@@ -112,4 +120,15 @@ body {
     padding: 10px;
 
     font-size: 12px;
+}
+
+.email__errorBorder {
+    border: 2px solid hsl(0, 93%, 68%); 
+}
+
+.email__arrowError {
+}
+
+.hide {
+    display: none;
 }
