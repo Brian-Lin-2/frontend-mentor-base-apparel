@@ -165,6 +165,8 @@ body {
     .logo {
         border: 1px red solid;
         width: 150px;
+
+        margin: -100px 0px 150px -300px;
     }
 
     .apparel__content {
