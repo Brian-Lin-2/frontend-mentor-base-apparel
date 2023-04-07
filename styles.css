@@ -68,7 +68,7 @@ body {
     align-items: center;
 }
 
-#email__text {
+.email__text {
     background-color: hsla(0, 36%, 70%, 0%);
 
     outline: none;
@@ -86,9 +86,8 @@ body {
     color: hsla(0, 36%, 70%, 50%);
 }
 
-.email__error {
+.email__errorIcon {
     width: 25px;
-
     margin-right: 10px;
 }
 
@@ -104,6 +103,9 @@ body {
     box-shadow: 0px 10px 15px hsla(0, 93%, 68%, 25%);
 }
 
+.email__error {
+    border: 2px solid hsl(0, 93%, 68%);
+}
 .email__errorMessage {
     color: hsla(0, 93%, 68%, 75%);
 
