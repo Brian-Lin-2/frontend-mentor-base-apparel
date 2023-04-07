@@ -166,7 +166,15 @@ body {
         border: 1px red solid;
         width: 150px;
 
-        margin: -100px 0px 150px -300px;
+        margin-bottom: 150px;
+    }
+
+    .apparel__container {
+        border: 1px red solid;
+
+        width: 600px;
+
+        margin-bottom: 150px;
     }
 
     .apparel__content {
