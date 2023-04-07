@@ -15,16 +15,14 @@ const validateEmail = (email) => {
       );
   };
 
-// When form is clicked, determine if email is valid.
+// When button is clicked or enter is pressed, determine if email is valid.
 email.addEventListener('submit', (e) => {
-    console.log(userEmail.value);
     // Determine if email is valid;
     // Use .value() for input elements. Sort of like .textContent().
     if (!validateEmail(userEmail.value)) {
         input.classList.add("email__error");
         errorIcon.classList.remove("hide");
         errorMessage.classList.remove("hide");
-
 
         // Stops the page from refreshing.
         e.preventDefault();

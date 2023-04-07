@@ -13,7 +13,6 @@ body {
 }
 
 .apparel {
-    border: 1px solid red;
     width: 375px;
     height: 800px;
 }
@@ -66,6 +65,8 @@ body {
 
     display: flex;
     align-items: center;
+
+    width: 340px;
 }
 
 .email__text {
@@ -79,7 +80,7 @@ body {
     padding: 15px;
     margin-left: 10px;
     
-    width: 205px;
+    width: 230px;
 }
 
 ::placeholder {
@@ -88,6 +89,7 @@ body {
 
 .email__errorIcon {
     width: 25px;
+    margin-left: -30px;
     margin-right: 10px;
 }
 
@@ -106,6 +108,7 @@ body {
 .email__error {
     border: 2px solid hsl(0, 93%, 68%);
 }
+
 .email__errorMessage {
     color: hsla(0, 93%, 68%, 75%);
 
@@ -116,5 +119,5 @@ body {
 }
 
 .hide {
-    display: none;
+    visibility: hidden;
 }
