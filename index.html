@@ -34,25 +34,22 @@
           Add your email below to stay up-to-date with announcements and our launch deals.
         </div>
   
-        <div class="email">
-  
+        <form id="email">
           <div class="email__input">
-            <form>
-              <input class="email__text" type="text" placeholder="Email Address">
-            </form>
-  
-            <img class="email__error hide" src="images/icon-error.svg" alt=""></img>
+            <input id="email__text" type="text" placeholder="Email Address">
+
+            <img class="email__error hide" src="images/icon-error.svg">
+            
+            <button class="email__button">
+              <img src="images/icon-arrow.svg" alt="">
+            </button>
           </div>
 
-          <a>
-            <img class="email__buttonArrow" src="images/icon-arrow.svg" alt="">
-          </a>
+          <div class="email__errorMessage hide">
+            Please provide a valid email.
+          </div>
 
-        </div>
-
-        <div class="email__errorMessage hide">
-          Please provide a valid email.
-        </div>
+        </form>
   
       </div>
 
@@ -61,6 +58,6 @@
   </div>
 
   <!-- Scripts -->
-  <script src="emailBar.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

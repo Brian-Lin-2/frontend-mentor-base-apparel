@@ -60,28 +60,16 @@ body {
     margin-bottom: 30px;
 }
 
-.email {
-    display: flex;
-    align-items: center;
-
-    /* Keeps the email bar stable on hover. */
-    width: 340px;
-    height: 50px;
-}
-
 .email__input {
     border: 1px solid hsl(0, 36%, 70%);
     border-radius: 30px;
 
     display: flex;
     align-items: center;
-
-    width: 340px;
 }
 
-.email__text {
+#email__text {
     background-color: hsla(0, 36%, 70%, 0%);
-    font-weight: lighter;
 
     outline: none;
     border: none;
@@ -90,47 +78,30 @@ body {
 
     padding: 15px;
     margin-left: 10px;
-
-    width: 225px;
+    
+    width: 205px;
 }
 
 ::placeholder {
     color: hsla(0, 36%, 70%, 50%);
 }
 
-.email__buttonArrow {
-    display: block;
-    border-radius: 30px;
-
-    margin: auto;
-    padding: 13px 25px 13px 30px;
-    
-    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
-
-    box-shadow: 0px 10px 15px hsla(0, 93%, 68%, 25%);
-
-    margin-left: -67px;
-}
-
-/* Active States (Desktop) */
-
-/* @media screen and (min-width: 500px) {
-    .email__buttonArrow:hover {
-        cursor: pointer;
-    
-        background: linear-gradient(135deg, hsl(0, 80%, 90%), hsl(0, 74%, 85%));;
-    
-        padding: 16px 30px 16px 35px;
-    
-        box-shadow: 0px 10px 15px hsla(0, 93%, 68%, 35%);
-    }
-} */
-
-/* Error state. */
-
 .email__error {
     width: 25px;
-    margin-left: -30px;
+
+    margin-right: 10px;
+}
+
+.email__button {
+    display: block;
+    border-radius: 30px;
+    border: none;
+    
+    margin: auto;
+    padding: 11px 25px 11px 30px;
+
+    background: linear-gradient(to bottom right,hsla(0, 93%, 68%, 25%), 25%, hsla(0, 93%, 68%, 75%));
+    box-shadow: 0px 10px 15px hsla(0, 93%, 68%, 25%);
 }
 
 .email__errorMessage {
@@ -140,10 +111,6 @@ body {
     padding: 10px;
 
     font-size: 12px;
-}
-
-.email__errorBorder {
-    border: 2px solid hsl(0, 93%, 68%); 
 }
 
 .hide {
