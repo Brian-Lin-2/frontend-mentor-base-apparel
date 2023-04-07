@@ -31,8 +31,42 @@ body {
     margin: 0px 18px;
 }
 
-.apparel__img {
+.apparel__imgMobile {
     margin-bottom: 60px;
+}
+
+.apparel__imgDesktop {
+    display: none;
+}
+
+/* Desktop Version */
+@media screen and (min-width: 500px) {
+    .apparel {
+        border: 1px red solid;
+
+        display: flex;
+        align-items: center;
+
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .apparel__imgMobile {
+        display: none;
+    }
+
+    .apparel__imgDesktop {
+        display: block;
+        min-height: 100vh;
+    }
+
+    .apparel__left {
+        border: 1px red solid;
+    }
+    
+    .apparel__right {
+        border: 1px red solid;
+    }
 }
 
 .apparel__header {
