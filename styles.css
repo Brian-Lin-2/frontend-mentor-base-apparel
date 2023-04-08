@@ -129,8 +129,6 @@ body {
 /* Desktop Version */
 @media screen and (min-width: 500px) {
     .apparel {
-        border: 1px red solid;
-
         display: flex;
         justify-content: space-between;
 
@@ -147,8 +145,6 @@ body {
     }
 
     .apparel__left {
-        border: 1px red solid;
-
         display: flex;
         flex-direction: column;
 
@@ -157,49 +153,55 @@ body {
 
         width: 900px;
     }
-    
-    .apparel__right {
-        border: 1px red solid;
-    }
 
     .logo {
-        border: 1px red solid;
         width: 150px;
 
         margin-bottom: 150px;
     }
 
     .apparel__container {
-        border: 1px red solid;
-
         width: 600px;
 
         margin-bottom: 150px;
     }
 
     .apparel__content {
-        border: 1px red solid;
-
         align-items: flex-start;
 
         width: 450px;
     }
     
     .apparel__header {
-        border: 1px red solid;
         font-size: 60px;
-        line-height: 60px;
+        line-height: 70px;
+        letter-spacing: 18px;
 
         text-align: left;
     }
 
     .apparel__text {
-        border: 1px red solid;
-
         text-align: left;
     }
 
-    .email {
-        border: 1px red solid;
+    .email__input {
+        width: 435px;
+        height: 50px;
+    }
+
+    .email__text {
+        width: 315px;
+    }
+
+    .email__button {
+        padding: 13px 30px 14px 35px;
+
+        background: linear-gradient(to bottom right,hsla(0, 93%, 68%, 25%), 25%, hsla(0, 93%, 68%, 75%));
+    }
+
+    .email__button:hover {
+        cursor: pointer;
+
+        background: linear-gradient(135deg, hsl(0, 80%, 90%), hsl(0, 74%, 85%));;
     }
 }
