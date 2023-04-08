@@ -128,6 +128,13 @@ body {
 
 /* Desktop Version */
 @media screen and (min-width: 500px) {
+    body {
+        background-image: url("images/bg-pattern-desktop.svg");
+
+        /* For zooming */
+        background-size: contain;
+    }
+
     .apparel {
         display: flex;
         justify-content: space-between;
